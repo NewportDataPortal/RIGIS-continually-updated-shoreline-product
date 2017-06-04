@@ -1,0 +1,493 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS)
+      Publication_Date: 20110809
+      Title: Rhode Island Continually Updated Shoreline Product; RI_CUSP
+      Geospatial_Data_Presentation_Form: vector digital data
+      Other_Citation_Details:
+        Suggested bibliographic reference:
+        RIGIS, 2016. Rhode Island Continually Updated Shoreline Product; RI_CUSP. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 2 March 2016).
+      Online_Linkage: http://www.ngs.noaa.gov/NSDE/
+      Online_Linkage: http://www.rigis.org
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), National Geodetic Survey (NGS)
+          Publication_Date: 1807
+          Title: Shoreline Mapping Program
+          Publication_Information:
+            Publication_Place: Silver Spring, Maryland
+            Publisher: NOAA's Ocean Service, National Geodetic Survey (NGS)
+          Other_Citation_Details: In 1807, Thomas Jefferson created an organization named the Survey of the Coast "...to cause a survey to be taken of coasts of the United States, in which shall be designated the islands and shoals and places of anchorage..." The data were created by the National Ocean Service, National Geodetic Survey as part of its ongoing mission to provide base maps of the coastline. The data are made available through a web-based delivery system.
+          Online_Linkage: http://www.ngs.noaa.gov/RSD/shoredata/NGS_Shoreline_Products.htm
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Rhode Island Geographic Information System (RIGIS)
+          Publication_Date: 1993
+          Title: Rhode Island Geographic Information System (RIGIS) Data Distribution System
+          Online_Linkage: http://www.rigis.org
+  Description:
+    Abstract: These data provide available contemporary high-resolution national shoreline. The Continually Updated Shoreline Product is provided via the National Shoreline Data Explorer application.
+    Purpose: Shoreline is a foundation data layer that may be used for mapping and charting applications, developing models for tsunamis, storm surge, and coastal flooding as well as predicting sea level change and forecasting pollution trajectories. It can assist decision-makers in developing comprehensive coastal-ready community plans, managing coastal resources, delineating and mitigating hazard events, making projections for wave and wind energy utilization, conducting environmental analyses and monitoring, and more.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19370323
+        Ending_Date: ongoing
+    Currentness_Reference: ground condition
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -71.897769
+      East_Bounding_Coordinate: -71.049111
+      North_Bounding_Coordinate: 41.905801
+      South_Bounding_Coordinate: 41.146628
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Shoreline
+      Theme_Keyword: Shoreline Mapping Program
+      Theme_Keyword: Coastal Mapping Program
+      Theme_Keyword: Best Available Shoreline
+      Theme_Keyword: Updated Contemporary National Shoreline
+      Theme_Keyword: NOAA Shoreline
+      Theme_Keyword: National Shoreline
+      Theme_Keyword: CUSP
+      Theme_Keyword: Continually Updated Shoreline Product
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Rhode Island
+      Place_Keyword: United States
+  Access_Constraints: None
+  Use_Constraints:
+    These data were generated for use by NGS during the course of its development of potential final products to fulfill its statutory mission. Although NGS is making these data available to others who may find the data of value, NGS does not warrant, endorse, or recommend the use of these data for any given purpose. The user assumes the entire risk related to the use of these data. These data are not for navigational purposes. NGS is providing these data "as is," and NGS disclaims any and all warranties, whether expressed or implied, including (without limitation) any implied warranties of merchantability or fitness for a particular purpose. In no event will NGS be liable to you or to any third party for any direct, indirect, incidental, consequential, special, or exemplary damages or lost profits resulting from any use or misuse of these data.
+    This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+    Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Ocean Service, National Geodetic Survey, Remote Sensing Division
+      Contact_Position: Chief Remote Sensing Division
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1315 East-West Highway
+        City: Silver Spring
+        State_or_Province: Maryland
+        Postal_Code: 20910-3282
+        Country: USA
+      Contact_Voice_Telephone: (301) 713-2663
+      Contact_Facsimile_Telephone: (301) 713-4572
+      Contact_Electronic_Mail_Address: shoreline@ngs.noaa.gov
+      Hours_of_Service: Monday through Friday, 7:00 a.m. to 4:30 p.m., Eastern Standard Time
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Shoreline attributes are from NGS's Coastal Cartographic Object Attribute Source Table (C-COAST) for data consistency. The C-COAST attributes were visually inspected with contemporary imagery to verify attribute accuracy.
+  Logical_Consistency_Report: Line segments which did not close were snapped by the nodes to create consistently tied strings without node dangles. Lines conform to topological rules. Lines intersect only at nodes, and all nodes anchor the ends of lines. Lines do not overshoot or undershoot other lines where they are supposed to meet. There are no duplicate lines.
+  Completeness_Report: The completeness of the data reflects the content of the sources and may not include a complete shoreline data set.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Compiled to meet the meters reported in HOR_ACC (horizontal accuracy) at the 95% confidence level. This predicted accuracy of compiled well-defined points is a deductive estimate.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Ocean Service, National Geodetic Survey
+          Publication_Date: 20120418
+          Title: Continually Updated Shoreline Product
+          Edition: First
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Silver Spring, MD
+            Publisher: U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Ocean Service, National Geodetic Survey
+          Other_Citation_Details: none
+          Online_Linkage: http://www.ngs.noaa.gov
+      Type_of_Source_Media: disc
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19370323
+            Ending_Date: 20111025
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: NOAA1
+      Source_Contribution: The shoreline is a representation based on an office interpretation of imagery or derived from Lidar. Shoreline vectors were verified with contemporary imagery. Sources of non-NOAA vector shoreline included U.S. Fish and Wildlife Service, North Carolina Department of Environment and Natural Resources, and U.S. Geological Survey. Non-NOAA imagery sources for interpreting shoreline included USDA-FSA Aerial Photography Field Office, ESRI Imagery World 2D (USGS, U.S. Geological Survey, and U.S. Department of Agriculture), Bing Maps Imagery Service, and Google Earth (TerraMetrics and DigitalGlobe).
+    Process_Step:
+      Process_Description: All features were attributed to conform to a subset of the NGS 'Coastal Cartographic Object Attribute Source Table' (C-COAST) attribution scheme. Current shoreline sources include individual National Shoreline projects, Lidar derived, automated feature extracted, monoscopically compiled, and non-NOAA sources of shoreline that were merged and stitched together and verified with contemporary imagery. The CUSP shoreline may include limited compilation from contemporary verification imagery (National Agriculture Imagery Program) if tidal influences minimally influenced the horizontal position. Some water courses were closed off with U.S. Fish and Wildlife Service's National Wetlands Inventory vectors. Edits may have been made to sections of the original shoreline vertices, as opposed to new compilation, to reflect the contemporary position.
+      Source_Used_Citation_Abbreviation: NOAA1
+      Process_Date: Unknown
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Ocean Service, National Geodetic Survey, Remote Sensing Division
+          Contact_Position: Chief Remote Sensing Division
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 1315 East-West Highway
+            City: Silver Spring
+            State_or_Province: Maryland
+            Postal_Code: 20910-3282
+            Country: USA
+          Contact_Voice_Telephone: (301) 713-2663
+          Contact_Facsimile_Telephone: (301) 713-4572
+          Contact_Electronic_Mail_Address: shoreline@ngs.noaa.gov
+          Hours_of_Service:
+            Monday through Friday, 7:00 a.m. to 4:30 p.m., Eastern Standard Time
+            Tidal_Information
+            Time_of_Tide
+            Tidal_Datum
+            Mean high water (MHW)
+            Tide_Table_Reference
+            http://tidesonline.nos.noaa.gov/
+    Process_Step:
+      Process_Description:
+        Data for Rhode Island was downloaded from the NOAA Shoreline Data Explorer. These data were reprojected to the Rhode Island state plane feet coordinate system from geographic coordinates. Data were compared with RIGIS dataset Shoreline and Islands (1989) and there were many areas where the CUSP shoreline was a more accurate representation of current ground conditions. This assessment led to the inclusion of these data on the RIGIS website. 
+        While the CUSP data is compile from a variety of source types, from a variety of different collection dates, this shoreline will provide a good cartographic representation of the Rhode Island coastline.
+      Source_Used_Citation_Abbreviation: NOAA CUSP
+      Process_Date: 20151209
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Environmental Data Center, University of Rhode Island
+            Contact_Person: Erica Tefft
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 1 Greenhouse Road
+            City: Kingston
+            State_or_Province: RI
+            Postal_Code: 02881
+          Contact_Voice_Telephone: 401-874-5054
+          Contact_Electronic_Mail_Address: erica@edc.uri.edu
+          Contact_Instructions: Email preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Complete chain
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane Rhode Island FIPS 3800 Feet
+        Transverse_Mercator:
+          Scale_Factor_at_Central_Meridian: 0.99999375
+          Longitude_of_Central_Meridian: -71.5
+          Latitude_of_Projection_Origin: 41.08333333333334
+          False_Easting: 328083.3333333333
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000007286382608384659
+          Ordinate_Resolution: 0.000000007286382608384659
+        Planar_Distance_Units: foot_us
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Rhode Island CUSP
+      Entity_Type_Definition: The line of contact between the land and a body of water approximating the mean high-water line for Rhode Island.
+      Entity_Type_Definition_Source: Shalowitz, A.L., 1964. Shore and Sea Boundaries. U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Ocean Service. 631 pp.
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: SOURCE_ID
+      Attribute_Definition: Source Identification of feature.
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Identification number.
+    Attribute:
+      Attribute_Label: SRC_DATE
+      Attribute_Definition: Date of source imagery or Lidar for the feature
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: YYYYMMDD
+    Attribute:
+      Attribute_Label: HOR_ACC
+      Attribute_Definition: Horizontal accuracy of the data source.
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number in meters.
+    Attribute:
+      Attribute_Label: INFORM
+      Attribute_Definition: Information on the feature.
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Ancillary Information (e.g. Describing or defining a feature)
+    Attribute:
+      Attribute_Label: ATTRIBUTE
+      Attribute_Definition: Mapped feature,
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Breakwater.Bare
+          Enumerated_Domain_Value_Definition: A structure protecting a shore area, harbor, anchorage, or basin from waves that is always dry; not covered at high water under average meteorological conditions.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Groin.Bare
+          Enumerated_Domain_Value_Definition: A low artificial wall-like structure of durable material extending from the land to seaward for a particular purpose, such as to prevent coast erosion that is always dry; not covered at high water under average meteorological conditions.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Jetty.Bare
+          Enumerated_Domain_Value_Definition: A structure built out into the water to restrain or direct currents, usually to protect a river mouth or harbor entrance from silting that is always dry; not covered at high water under average meteorological conditions.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made
+          Enumerated_Domain_Value_Definition: Shoreline composed of artificially constructed features or non-natural materials.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Bulkhead Or Sea Wall
+          Enumerated_Domain_Value_Definition: An embankment or wall for protection against waves or tidal action along a shore or water front.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Bulkhead Or Sea Wall.Ruins
+          Enumerated_Domain_Value_Definition: An embankment or wall for protection against waves or tidal action along a shore or water front in a decayed or deteriorated condition resulting from neglect or disuse; a damaged structure in need of repair.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Canal.Navigable
+          Enumerated_Domain_Value_Definition: An artificial waterway with no flow, or a controlled flow, used for navigation, or for draining or irrigating land that affords passage to a craft; capable of being navigated.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Canal.Navigable.Approximate
+          Enumerated_Domain_Value_Definition: An artificial waterway with no flow, or a controlled flow, used for navigation, or for draining or irrigating land that affords passage to a craft; capable of being navigated. An approximate modifier indicates shoreline which does not meet the definition of Accurate, but is generally considered to be within 100 feet (30.5 meters) of its correct geographic location. Used to denote shoreline obscured by shadows or line-of-sight blockage, such as under bridges.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Canal.Non-navigable
+          Enumerated_Domain_Value_Definition: An artificial waterway with no flow, or a controlled flow, not used for navigation, or for draining or irrigating land that does not affords passage to a craft; incapable of being navigated.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Drydock.Permanent
+          Enumerated_Domain_Value_Definition: A lasting artificial basin fitted with a gate or caisson, into which vessels can be floated and the water pumped out to expose the vessel's bottom. Also called graving dock.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Lock
+          Enumerated_Domain_Value_Definition: A wet dock in a waterway, permitting a ship to pass from one level to another.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Ramp
+          Enumerated_Domain_Value_Definition: A sloping structure that can be used as a landing place, at variable water levels, for small vessels, landing ships, or a ferry boat, or for hauling a cradle carrying a vessel.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Rip Rap
+          Enumerated_Domain_Value_Definition: A layer of broken rock, cobbles, boulders, or fragments of sufficient size to resist the erosive forces of flowing water and wave action.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Slipway
+          Enumerated_Domain_Value_Definition: A prepared and usually reinforced inclined surface on which keel- and bilge-blocks are laid for supporting a vessel under construction.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Wharf Or Quay
+          Enumerated_Domain_Value_Definition: A structure serving as a berthing place for vessels consisting of a solid or open wall of concrete, masonry, wood, etc.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Man-made.Wharf Or Quay.Ruins
+          Enumerated_Domain_Value_Definition: A structure serving as a berthing place for vessels consisting of a solid or open wall of concrete, masonry, wood, etc in a decayed or deteriorated condition resulting from neglect or disuse; a damaged structure in need of repair.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural
+          Enumerated_Domain_Value_Definition: Shoreline composed of naturally occurring materials, or created, or appearing to have been created, by natural processes.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Apparent.Marsh Or Swamp
+          Enumerated_Domain_Value_Definition: The outer limit line of a vegetation area made up of spongy land saturated with water delineated as shoreline; the shoreline as it would appear to the mariner. It may have a shallow covering of water, usually with a considerable amount of vegetation appearing above the surface.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Apparent.Mangrove Or Cypress
+          Enumerated_Domain_Value_Definition: The outer limit line of a vegetation area composed of one of several genera of tropical trees or shrubs which produce many prop roots and grow along low lying coasts in shallow water; or a deciduous conifer which thrives in swamps and tidal flows, and is found primarily in the coastal tidewaters of the Gulf of Mexico in Florida and Mississippi such as mangrove, delineated as shoreline; the shoreline as it would appear to the mariner.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Glacier
+          Enumerated_Domain_Value_Definition: The seaward limits of a mass of snow and ice continuously moving from higher to lower ground or, if afloat, continuously spreading.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Great Lake Or Lake Or Pond
+          Enumerated_Domain_Value_Definition: The Great Lakes, and other small and large bodies of water entirely surrounded by land, both natural and artificial.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Great Lake Or Lake Or Pond.Approximate
+          Enumerated_Domain_Value_Definition: The Great Lakes, and other small and large bodies of water entirely surrounded by land, both natural and artificial. An approximate modifier indicates shoreline which does not meet the definition of Accurate, but is generally considered to be within 100 feet (30.5 meters) of its correct geographic location. Used to denote shoreline obscured by shadows or line-of-sight blockage, such as under bridges.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Mean High Water
+          Enumerated_Domain_Value_Definition: A shoreline proxy representing the land/water interface at the mean high water tidal datum. The average of all the high water heights observed over the National Tidal Datum Epoch (18.6 years). For stations with shorter series, simultaneous observational comparisons are made with a control tide station in order to derive the equivalent datum of the National Tidal Datum.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Mean High Water.Approximate
+          Enumerated_Domain_Value_Definition: A shoreline proxy representing the land/water interface at the mean high water tidal datum. The average of all the high water heights observed over the National Tidal Datum Epoch (18.6 years). For stations with shorter series, simultaneous observational comparisons are made with a control tide station in order to derive the equivalent datum of the National Tidal Datum. An approximate modifier indicates shoreline which does not meet the definition of Accurate, but is generally considered to be within 100 feet (30.5 meters) of its correct geographic location. Used to denote shoreline obscured by shadows or line-of-sight blockage, such as under bridges.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.Mean Water Level
+          Enumerated_Domain_Value_Definition: A shoreline proxy representing the mean surface elevation datum as determined by averaging the heights of the water at equal intervals of time, usually hourly. Mean water level is used in areas of little or no range in tide.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.River Or Stream
+          Enumerated_Domain_Value_Definition: A course of running water.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Natural.River Or Stream.Approximate
+          Enumerated_Domain_Value_Definition: A course of running water. An approximate modifier indicates shoreline which does not meet the definition of Accurate, but is generally considered to be within 100 feet (30.5 meters) of its correct geographic location. Used to denote shoreline obscured by shadows or line-of-sight blockage, such as under bridges.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stream.Perennial
+          Enumerated_Domain_Value_Definition: A course of running water lasting indefinitely; enduring.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Undetermined
+          Enumerated_Domain_Value_Definition: Shoreline of unspecified and/or unknown composition.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Undetermined.Approximate
+          Enumerated_Domain_Value_Definition: Shoreline of unspecified and/or unknown composition. An approximate modifier indicates shoreline which does not meet the definition of Accurate, but is generally considered to be within 100 feet (30.5 meters) of its correct geographic location. Used to denote shoreline obscured by shadows or line-of-sight blockage, such as under bridges.
+          Enumerated_Domain_Value_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Undetermined.Estimated
+          Enumerated_Domain_Value_Definition: Shoreline of unspecified and/or unknown composition. A modifier that indicates shoreline which is generally considered to be outside of 100 feet (30.5 meters) of its correct geographic location .
+          Enumerated_Domain_Value_Definition_Source: NOAA
+    Attribute:
+      Attribute_Label: VER_DATE
+      Attribute_Definition: Date of verification imagery for the feature
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: YYYYMMDD
+    Attribute:
+      Attribute_Label: SRC_RESOLU
+      Attribute_Definition: Resolution of source (imagery or grid) used for compiling shoreline.
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number in meters.
+    Attribute:
+      Attribute_Label: DATA_SOURC
+      Attribute_Definition: Data Source describing the type of imagery used in compilation
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Aerial Photography, Satellite Imagery, Lidar, IFSAR, SAR, HyperSpectral, Multispectral
+    Attribute:
+      Attribute_Label: EX_METH
+      Attribute_Definition: Method used to extract feature from source
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Derived, Mono, Stereo
+    Attribute:
+      Attribute_Label: DAT_SET_CR
+      Attribute_Definition: Dataset credit.
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text Description
+    Attribute:
+      Attribute_Label: SRC_CITA
+      Attribute_Definition: Source citation.
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text Description
+    Attribute:
+      Attribute_Label: FIPS_ALPHA
+      Attribute_Definition: two- letter FIPS State Alpha Code for each State and the District of Columbia. The FIPS State Alpha Code is identical to the two-letter U.S. Postal Service (USPS) abbreviation for each entity. Areas not included in the FIPS State Alpha Code are identified as "99".
+      Attribute_Definition_Source: Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology after approval by the Secretary of Commerce pursuant to Section 111(d) of the Federal Property and Administrative Services Act of 1949, as amended by the Computer Security Act of 1987, Public Law 100-235.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: 99, AK, AL, AS, CA, CT, DC, DE, FL, GA, GU, HI, IL, IN, LA, MA, MD, ME, MI, MN, MP, MS, NC, NH, NJ, NY, OH, OR, PR, RI, SC, TX, UM, VA, VI, WA, WI
+    Attribute:
+      Attribute_Label: NOAA_Regio
+      Attribute_Definition: NOAA Regional Collaboration
+      Attribute_Definition_Source: NOAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Alaska, Great Lakes, Gulf of Mexico, North Atlantic, Pacific Islands, Southeast and Caribbean, Western
+    Attribute:
+      Attribute_Label: Shape_Leng
+      Attribute_Definition: Shape Length.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Lengths that are automatically generated.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: University of Rhode Island Environmental Data Center
+        Contact_Person: Erica Tefft
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1 Greenhouse Road
+        City: Kingston
+        State_or_Province: RI
+        Postal_Code: 02881
+      Contact_Voice_Telephone: 401-874-5054
+      Contact_Electronic_Mail_Address: erica@edc.uri.edu
+      Contact_Instructions: email preferred
+  Distribution_Liability: This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Esri shapefile
+        File_Decompression_Technique: ZIP
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.rigis.org
+    Fees: No fee for downloading directly from the RIGIS Data Distribution System located at http://www.edc.uri.edu/rigis.
+Metadata_Reference_Information:
+  Metadata_Date: 20120430
+  Metadata_Review_Date: 20160302
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NOAA - NOS
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 1315 East-West Highway
+        City: Silver Spring
+        State_or_Province: MD
+        Postal_Code: 20910-3282
+        Country: USA
+      Contact_Voice_Telephone: (301) 713-2663 (x109)
+      Contact_Facsimile_Telephone: (301) 713-4572
+      Contact_Electronic_Mail_Address: shoreline@ngs.noaa.gov
+      Hours_of_Service: Monday through Friday, 7 a.m. to 4:30 p.m., Eastern Standard Time
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
